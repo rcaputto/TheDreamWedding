@@ -1,0 +1,53 @@
+.nosotras{
+    margin-top: 14rem;
+    margin-bottom: 2rem;
+   
+}
+:root{
+    --bs-grassGreen: #586d45;
+    --bs-orange: #ecc052;
+    --bs-lightGreen: #c6d1ac;
+    --bs-green: #a5b29d;
+    --bs-lightPink: #fad4c8;
+    --bs-lightgray:#f1eae1;
+    --bs-gray:#c3cfc2;
+  }
+
+#nosotrasTitle{
+    font-family: sans-serif;
+    font-size: 72px;
+    color: var(--bs-grassGreen);
+    padding: 2rem;
+    margin-top: -14rem;
+    
+}
+
+
+
+.nosotrasCopy{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 38px;
+    width: 28rem;
+    margin-left: 50rem;
+    padding: 2rem;
+    color: var(--bs-grassGreen);
+}
+
+.nosotrasCard{
+    height: 115vh;
+    background-image: url('../Images/nosotras.jpg');
+    background-size:50rem;
+    background-repeat: no-repeat;
+    background-position:left;
+    background-attachment: fixed;
+    
+    
+}
+.background{
+    background-color: var(--bs-lightPink);
+    
+    
+}

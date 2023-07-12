@@ -1,0 +1,21 @@
+.App {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    
+  }
+
+  .title{
+    text-align: center;
+    font-size: 54px;
+    margin-bottom: 4rem;
+  }
+  .carousel{
+    margin-bottom: 12rem;
+    background-color: pink;
+    height: 80vh;
+    width: 85%;
+    margin-left: 5rem;
+  }

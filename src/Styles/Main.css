@@ -1,0 +1,43 @@
+.main{
+    
+    background-image: url('../Images/TDW-67.jpg');
+    
+    background-repeat: no-repeat ;
+    background-size:65%;
+    width: 85%;
+    margin-left:6rem;
+    background-attachment: fixed;
+    background-position: top;
+    background-color: #daa99e;
+    height: 110vh;
+    animation: image 5s ease 0s 1 normal ;
+}
+@keyframes image {
+	0% {
+		background-position: 50% 50%;
+	}
+
+	100% {
+		background-position: top center;
+	}
+  } 
+.main-image{
+    width: 30%;
+    margin-left: -60rem;
+    animation: myAnim 1s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+    0% {
+      transform: scale(0);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+  .plant{
+    width: 8rem;
+    margin-left: auto;
+    
+  }
+  
