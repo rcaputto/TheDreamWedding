@@ -1,6 +1,7 @@
 /*import Image from '../public/images/nosotras.jpg';*/
 import '../Styles/Nosotras.css'
 
+
 const nosotras = {
     textAlign : 'center'
 }
@@ -10,7 +11,8 @@ const nosotras = {
 function Nosotras () {
     return (
         <>
-        <div className="nosotras">
+        
+        <div id='us' className="nosotras">
         <h1 id="nosotrasTitle" style={nosotras}>NOSOTRAS</h1>
         <div className="background">
         <div className="nosotrasCard">

@@ -2,6 +2,7 @@
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import {Link} from 'react-router-dom'
 
 export default function NavBar(){
 
@@ -12,21 +13,33 @@ export default function NavBar(){
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav ">
             <Nav className="ms-auto " >
-              <Nav.Link href="#home" className="p-3">Inicio</Nav.Link>
-              <Nav.Link href="#link" className="p-3">Nosotras</Nav.Link>
+              <Nav.Link className="p-3"><Link to ='/'>Inicio</Link></Nav.Link>
+              <Nav.Link className="p-3"><Link to ='/nosotras'>Nosotras</Link></Nav.Link>
               <NavDropdown title="Servicios" id="basic-nav-dropdown" className="p-2">
-                <NavDropdown.Item href="#action/3.1">Wedding 4 x 4</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Race Day
+                <NavDropdown.Item > 
+                  <Link to ='/cuatro-cuatro'> Wedding 4 x 4</Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Microtuning</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Planner Online</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Tuning 2.0</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">MicroWedding</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Wedding Point</NavDropdown.Item>
+                <NavDropdown.Item >
+                  <Link to='/race-day'> Race Day </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to='/microtunnig'> Microtuning </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item >
+                  <Link to ='/WeddingPlannerOnline'>Planner Online</Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item >
+                <Link to = '/TunningDos'>Tuning 2.0</Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item >
+                <Link to = '/MicroWedding'>MicroWedding</Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item >
+                <Link to ='/WeddingPoint'>Wedding Point</Link>
+                </NavDropdown.Item>
                
               </NavDropdown>
-              <Nav.Link href="#link" className="p-3">Galeria</Nav.Link>
+              <Nav.Link  className="p-3"><Link to ="/Galeria">Galeria</Link></Nav.Link>
               <Nav.Link href="#link" className="p-3">Blog</Nav.Link>
               <Nav.Link href="#link" className="ms-5 me-3 p-3">Contacto</Nav.Link>
               

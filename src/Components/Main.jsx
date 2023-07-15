@@ -4,21 +4,24 @@ import "../Styles/Main.css"
 import Break from './Break'
 import NavBar from './NavBar'
 import Card from 'react-bootstrap/Card';
+import Nosotras from './nosotras'
+import CardsApp from './CardsApp'
+import CarouselGaleria from './CarouselGaleria'
 
 
 const slogan = {
 
     fontFamily: 'sans-serif, cursive',
     fontSize: '46px',
-    width:'75%',
-    marginLeft: '10rem',
-    marginTop: '4rem',
+    width:'100%',
+    height: '6rem',
+    textAlign: 'center',
     marginBottom: '4rem',
     backgroundColor: 'pink',
     color: 'white',
     lineHeight: 'normal',
     fontWeight: '450',
-    textAlign: 'center'
+    
 }
 
 const card = {
@@ -39,11 +42,11 @@ export default function Main() {
                 <Card.ImgOverlay className='plant'>
                     <Card.Img   src={plant} />
                 </Card.ImgOverlay>
-            </Card>
-            <br />
-            <Break />
+            </Card>      
             <h1 style={slogan}>“Es tu boda, tu la soñaste…. Nosotras te ayudamos a lograrlo.”</h1>
-            
+            <CarouselGaleria/>
+            <Nosotras/>
+            <CardsApp/>
         </>
     )
 }
