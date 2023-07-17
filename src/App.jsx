@@ -12,10 +12,12 @@ import WeddingPoint from './Components/Dossier/WeddingPoint'
 import Nosotras from './Components/nosotras'
 import Galeria from './Components/Galeria'
 
+
 function App() {
   
 
   return (
+    
     <Router>
       
     <Routes>  
