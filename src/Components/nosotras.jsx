@@ -11,8 +11,8 @@ const nosotras = {
 function Nosotras () {
     return (
         <>
-        
-        <div id='us' className="nosotras">
+        <div id='us'/>
+        <div  className="nosotras">
         <h1 id="nosotrasTitle" style={nosotras}>NOSOTRAS</h1>
         <div className="background">
         <div className="nosotrasCard">

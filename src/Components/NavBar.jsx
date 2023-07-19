@@ -1,4 +1,3 @@
-
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -13,8 +12,8 @@ export default function NavBar(){
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav ">
             <Nav className="ms-auto " >
-              <Nav.Link className="p-3"><Link to ='/'>Inicio</Link></Nav.Link>
-              <Nav.Link className="p-3"><Link to ='/nosotras'>Nosotras</Link></Nav.Link>
+              <Nav.Link className="p-3" ><Link to ='/'>Inicio</Link></Nav.Link>
+              <Nav.Link className="p-3" href="#nosotrasTitle"> Nosotras</Nav.Link>
               <NavDropdown title="Servicios" id="basic-nav-dropdown" className="p-2">
                 <NavDropdown.Item > 
                   <Link to ='/cuatro-cuatro'> Wedding 4 x 4</Link>

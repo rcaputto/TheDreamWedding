@@ -9,8 +9,9 @@ import MicroWedding from './Components/Dossier/MicroWedding'
 import TunningDos from './Components/Dossier/TunningDos'
 import WeddingPlannerOnline from './Components/Dossier/WeddingPlannerOnline'
 import WeddingPoint from './Components/Dossier/WeddingPoint'
-import Nosotras from './Components/nosotras'
 import Galeria from './Components/Galeria'
+
+
 
 
 function App() {
@@ -29,11 +30,11 @@ function App() {
       <Route path='/TunningDos' element = {<TunningDos/>}/>
       <Route path='/WeddingPlannerOnline' element = {<WeddingPlannerOnline/>}/>
       <Route path='/WeddingPoint' element = {<WeddingPoint/>}/>
-      <Route path='/nosotras' element = {<Nosotras/>}/>
       <Route path='/Galeria' element = {<Galeria/>}/>
 
     </Routes>
     </Router>
+    
   )
 }
 

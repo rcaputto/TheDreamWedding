@@ -1,5 +1,5 @@
 import plant from '../Images/png/planta 1.png'
-import Logo from '../Images/png/logotipo.png'
+import Logo from '../Images/png/Logo A.png'
 import "../Styles/Main.css"
 import Break from './Break'
 import NavBar from './NavBar'
@@ -17,15 +17,15 @@ const slogan = {
     height: '6rem',
     textAlign: 'center',
     marginBottom: '4rem',
-    backgroundColor: 'pink',
-    color: 'white',
+    backgroundColor: '#DAA99E',
+    color: '#69283B',
     lineHeight: 'normal',
     fontWeight: '450',
     
 }
 
 const card = {
-    backgroundColor: 'pink'
+    backgroundColor: '#75946A'
 }
 
 export default function Main() {
@@ -34,7 +34,8 @@ export default function Main() {
         <>
             <NavBar />
             <Break />
-            <Card style={card}>
+            <div id='inicio'/>
+            <Card style={card} >
                 <div className='main'></div>
                 <Card.ImgOverlay className="animate__animated animate__flip animate__delay-5s">
                     <Card.Img variant="top" className='w-25' src={Logo} />

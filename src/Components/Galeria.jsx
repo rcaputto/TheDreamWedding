@@ -1,7 +1,7 @@
 
 import NavBar from './NavBar'
-import Imagenes from './Imagenes'
-import GaleriaModal from './GaleriaModal'
+
+import GaleriaModalDinamica from './GaleriaModalDinamica'
 
 export default function Galeria(){
     
@@ -10,8 +10,7 @@ export default function Galeria(){
         <div>
         <NavBar/>
         <h1> Galeria de imágenes </h1>
-            
-            <GaleriaModal/>
+            <GaleriaModalDinamica/>
         </div>
     )
 }

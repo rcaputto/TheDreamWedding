@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Image1 from '../Images/Galeria WEB/Copia de TDW-63.jpg';
-import Image2 from '../Images/Galeria WEB/Copia de TDW-73.jpg';
-import Image3 from '../Images/Galeria WEB/Copia de TDW-57.jpg'
+import Image1 from '../Images/Galeria WEB/Col1/12.jpg'
+import Image2 from '../Images/Galeria WEB/Col1/13.jpg';
+import Image3 from '../Images/Galeria WEB/Col1/14.jpg'
 
 export default function CarouselGaleria (){
   const ImgStyle = {
@@ -54,6 +54,7 @@ export default function CarouselGaleria (){
           </p>
         </Carousel.Caption>
       </Carousel.Item>
+      
     </Carousel>
     </div>
     )
