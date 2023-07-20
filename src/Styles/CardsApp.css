@@ -9,8 +9,9 @@
 
   .title{
     text-align: center;
-    font-size: 54px;
+    font-size: 64px;
     margin-bottom: 4rem;
+    font-family: 'Allura', cursive;
   }
   .carousel{
     margin-bottom: 12rem;

@@ -8,6 +8,7 @@ import bodasDeDestino from '../Images/png/BodasDestino.png';
 import MicroTuning from '../Images/png/Microtuning.png';
 import Tuning from '../Images/png/Tuning.png';
 import microBodas from '../Images/png/microbodas.png';
+import OnLine from '../Images/png/online.png';
 
 
 
@@ -22,7 +23,7 @@ function CardsApp() {
             imagen={weddingAllTerrain}
             titulo='4X4 Wedding'
             texto='Este servicio te lo incluye todo, si lo que buscas es disfrutar del proceso, te lo recomendamos… .
-              Creamos el proyecto íntegro de la boda, gestionamos presupuesto, proveedores, diseño, decoración, papelería personalizada y coordinamos el Día B.'
+              Creamos el proyecto íntegro de la boda, presupuesto, proveedores, diseño, decoración y coordinamos el Día B.'
             link = "/four-wedding"
               />
        
@@ -35,7 +36,7 @@ function CardsApp() {
           imagen={raceDay}
           titulo='Race Day'
           texto='Es lo que necesitas para disfrutar de tu boda y no preocuparte por nada.
-            Realizamos timing de la boda, visita técnica al espacio de la celebración, seguimiento de proveedores, montaje de puntos de decoración, creamos grupo de Whatsapp para centralizar la información y asistimos como mínimo dos coordinadoras para acompañarlos ese día.'
+            Realizamos timing de la boda, montaje de puntos de decoración y todo lo que necesites para disfrutar'
         />
       ),
     },
@@ -76,7 +77,19 @@ function CardsApp() {
           imagen={bodasDeDestino}
           titulo='Wedding Point'
           texto='Lo mágico de estas bodas, es que los novios eligen un destino que les guste, pero del que ninguno sea originario, para cumplir el sueño de celebrar su boda en un lugar especial para ellos con sus allegados.
-          Nos encargamos de toda la organización, desde el proyecto de la boda, gestión de proveedores, diseño y decoración, coordinación día B y acompañamiento de días complementarios.
+          
+          '
+        />
+      ),
+    },
+    {
+      key: uuidv4(),
+      content: (
+        <Card
+          imagen={OnLine}
+          titulo='Wedding Planner OnLine'
+          texto='Este servicio está ideado para ayudarlos a distancia a organizar su boda paso a paso y así evitar que queden temas desatendidos.
+          
           '
         />
       ),

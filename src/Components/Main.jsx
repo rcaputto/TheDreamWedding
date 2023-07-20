@@ -11,21 +11,26 @@ import CarouselGaleria from './CarouselGaleria'
 
 const slogan = {
 
-    fontFamily: 'sans-serif, cursive',
+    fontFamily: 'Allura, cursive',
     fontSize: '46px',
-    width:'100%',
-    height: '6rem',
+    width:'75%',
+    height: '7rem',
     textAlign: 'center',
     marginBottom: '4rem',
     backgroundColor: '#DAA99E',
     color: '#69283B',
-    lineHeight: 'normal',
+    lineHeight: '7rem',
     fontWeight: '450',
+    marginTop:'4rem',
+    marginLeft: '10rem'
+
     
 }
 
 const card = {
-    backgroundColor: '#75946A'
+    backgroundColor: '#75946A',
+    marginBottom:'4rem'
+    
 }
 
 export default function Main() {
@@ -43,8 +48,8 @@ export default function Main() {
                 <Card.ImgOverlay className='plant'>
                     <Card.Img   src={plant} />
                 </Card.ImgOverlay>
+                <h1 style={slogan}>“Es tu boda, tu la soñaste…. Nosotras te ayudamos a lograrlo.”</h1>
             </Card>      
-            <h1 style={slogan}>“Es tu boda, tu la soñaste…. Nosotras te ayudamos a lograrlo.”</h1>
             <CarouselGaleria/>
             <Nosotras/>
             <CardsApp/>

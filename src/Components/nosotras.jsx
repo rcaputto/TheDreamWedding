@@ -3,7 +3,8 @@ import '../Styles/Nosotras.css'
 
 
 const nosotras = {
-    textAlign : 'center'
+    textAlign : 'center',
+    fontFamily: 'Allura, cursive',
 }
 
 
