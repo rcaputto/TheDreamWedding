@@ -24,7 +24,7 @@ function CardsApp() {
             titulo='4X4 Wedding'
             texto='Este servicio te lo incluye todo, si lo que buscas es disfrutar del proceso, te lo recomendamos… .
               Creamos el proyecto íntegro de la boda, presupuesto, proveedores, diseño, decoración y coordinamos el Día B.'
-            link = "/four-wedding"
+            link = "/cuatro-cuatro"
               />
        
       ),

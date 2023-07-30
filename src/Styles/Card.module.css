@@ -20,9 +20,12 @@
   
   .card h2 {
     margin: 0;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Allura', cursive;
+    text-align: center; 
+    font-size: 38px;
+    color:#fad4c8;
   }
   
   .card p {
@@ -32,6 +35,8 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 15px;
+    color:#fad4c8;
+    text-align: justify;
   }
   
   

@@ -1,4 +1,6 @@
 import plant from '../Images/png/planta 1.png'
+import flower from '../Images/png/flor 1.png'
+import flower2 from '../Images/png/flor 2.png'
 import Logo from '../Images/png/Logo A.png'
 import "../Styles/Main.css"
 import Break from './Break'
@@ -9,10 +11,11 @@ import CardsApp from './CardsApp'
 import CarouselGaleria from './CarouselGaleria'
 
 
+
 const slogan = {
 
     fontFamily: 'Allura, cursive',
-    fontSize: '46px',
+    fontSize: '40px',
     width:'75%',
     height: '7rem',
     textAlign: 'center',
@@ -45,14 +48,36 @@ export default function Main() {
                 <Card.ImgOverlay className="animate__animated animate__flip animate__delay-5s">
                     <Card.Img variant="top" className='w-25' src={Logo} />
                 </Card.ImgOverlay>
-                <Card.ImgOverlay className='plant'>
-                    <Card.Img   src={plant} />
+                <Card.ImgOverlay className='plant' style={{marginRight:'6rem'}}>
+                    <Card.Img   src={plant}  />
+                </Card.ImgOverlay>
+                <Card.ImgOverlay className='plant' style={{marginRight:'6rem', marginTop:'14rem'}}>
+                    <Card.Img   src={plant}  />
+                </Card.ImgOverlay>
+                <Card.ImgOverlay className='plant' style={{marginRight:'6rem',marginTop:'28rem'}}>
+                    <Card.Img   src={plant}  />
+                </Card.ImgOverlay>
+                <Card.ImgOverlay className='plant' style={{marginTop:'1rem'}}>
+                    <Card.Img   src={flower}  />
+                </Card.ImgOverlay>
+                <Card.ImgOverlay className='plant' style={{marginTop:'8rem'}}>
+                    <Card.Img   src={flower2}  />
+                </Card.ImgOverlay>
+                <Card.ImgOverlay className='plant' style={{marginTop:'16rem'}}>
+                    <Card.Img   src={flower2}  />
+                </Card.ImgOverlay>
+                <Card.ImgOverlay className='plant' style={{marginTop:'24rem'}}>
+                    <Card.Img   src={flower}  />
+                </Card.ImgOverlay>
+                <Card.ImgOverlay className='plant' style={{marginTop:'32rem'}}>
+                    <Card.Img   src={flower2}  />
                 </Card.ImgOverlay>
                 <h1 style={slogan}>“Es tu boda, tu la soñaste…. Nosotras te ayudamos a lograrlo.”</h1>
-            </Card>      
-            <CarouselGaleria/>
+            </Card> 
+               
             <Nosotras/>
             <CardsApp/>
+            <CarouselGaleria/>
         </>
     )
 }

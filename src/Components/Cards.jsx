@@ -1,6 +1,6 @@
 import Styles from "../Styles/Card.module.css";
 import React, { useState } from "react";
-
+import { Link } from "react-router-dom";
 import { useSpring, animated } from "react-spring";
 
 
@@ -25,10 +25,11 @@ function Cards( props) {
       onMouseLeave={() => setShown(false)}
       
     >
+    <Link to = {props.link} style={{textDecoration:'none'}}>
     <img src={props.imagen} alt=""/>
       <h2>{props.titulo}</h2>
       <p>{props.texto}</p>
-      
+      </Link> 
       
     </animated.div>
   );

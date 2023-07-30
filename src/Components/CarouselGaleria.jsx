@@ -1,7 +1,10 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Image1 from '../Images/Galeria WEB/Col1/12.jpg'
-import Image2 from '../Images/Galeria WEB/Col1/13.jpg';
-import Image3 from '../Images/Galeria WEB/Col1/14.jpg'
+import Container from 'react-bootstrap/Container';
+import { Link } from 'react-router-dom';
+import Image1 from '../Images/Carrousel/17.jpg'
+import Image2 from '../Images/Carrousel/Copia de TDW-40.jpg';
+import Image3 from '../Images/Carrousel/Copia de Pedidomano-014.jpg'
+import Image4 from '../Images/Carrousel/Copia de Deco Pedido de mano-6.jpg'
 
 export default function CarouselGaleria (){
   const ImgStyle = {
@@ -10,52 +13,83 @@ export default function CarouselGaleria (){
     height: '75vh',
     objectFit: 'cover',
   }
+  const tipografia ={
+    color: '#fad4c8',
+    fontFamily: 'Allura, cursive',
+    textAlign: 'center',
+    fontSize:'48px'
+  }
     return (
-      <div>  
-      
+       
+      <Container>
       <Carousel >
         <Carousel.Item>
+        <Link to ="/Galeria" style={{textDecoration:'none'}}>
         <img
-          className="d-block w-75"
+          className="d-block "
           src={Image1}
           style = {ImgStyle}
           alt="First slide"
         />
+        </Link>
         <Carousel.Caption>
-          <h3>TITULO</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3 style={tipografia}>Amanecer Boho</h3>
+          <h4 style={{color:'#fad4c8'}}>Banquete a pie de playa</h4>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
+      <Link to ="/Galeria" style={{textDecoration:'none'}}>
         <img
-          className="d-block w-75"
+          className="d-block "
           src={Image2}
           style = {ImgStyle}
           alt="Second slide"
         />
+        </Link>
 
         <Carousel.Caption>
-          <h3>TITULO</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3 style={tipografia}>Ceremonia Boho Chic</h3>
+          <h4 style={{color:'#fad4c8'}}>4 x 4 Wedding</h4>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
+      <Link to ="/Galeria" style={{textDecoration:'none'}}>
         <img
-          className="d-block w-75"
+          className="d-block "
           src={Image3}
           style = {ImgStyle}
           alt="Third slide"
         />
+        </Link>
 
         <Carousel.Caption>
-          <h3>TITULO</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3 style={tipografia}>Pedida de mano</h3>
+          <h4 style={{color:'#fad4c8'}}>
+          Microtunning en Marbella
+          </h4>
+        </Carousel.Caption>
+      </Carousel.Item>
+      
+    
+    <Carousel.Item>
+    <Link to ="/Galeria" style={{textDecoration:'none'}}>
+        <img
+          className="d-block "
+          src={Image4}
+          style = {ImgStyle}
+          alt="Third slide"
+        />
+        </Link>
+
+        <Carousel.Caption>
+          <h3 style={tipografia}>En Acción</h3>
+          <h4 style={{color:'#fad4c8'}}>
+            Siempre en cada detalle
+          </h4>
         </Carousel.Caption>
       </Carousel.Item>
       
     </Carousel>
-    </div>
+    </Container>
     )
 }
