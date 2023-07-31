@@ -1,13 +1,14 @@
-import NavBar from "../NavBar";
+
 import '../../Styles/CuatroPorCuatro.css'
 import image1 from '../../Images/Dossier/44img.jpg'
 import image2 from '../../Images/Dossier/44imgb.jpg'
+import NavBarBis from "../NavBarBis";
 export default function CuatroPorCuatro (){
 
     return (
         
             <div>
-            <NavBar/>
+            <NavBarBis/>
             <div className="backgroundImage">
             
             </div>

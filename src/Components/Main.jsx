@@ -9,6 +9,7 @@ import Card from 'react-bootstrap/Card';
 import Nosotras from './nosotras'
 import CardsApp from './CardsApp'
 import CarouselGaleria from './CarouselGaleria'
+import { Footer } from './Footer'
 
 
 
@@ -78,6 +79,7 @@ export default function Main() {
             <Nosotras/>
             <CardsApp/>
             <CarouselGaleria/>
+            <Footer/>
         </>
     )
 }
