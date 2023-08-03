@@ -95,10 +95,27 @@ function CardsApp() {
       ),
     },
   ];
+  const slogan = {
+
+    fontFamily: 'Allura, cursive',
+    fontSize: '40px',
+    height: '7rem',
+    textAlign: 'center',
+    marginBottom: '4rem',
+    marginLeft:'8rem',
+    backgroundColor: '#DAA99E',
+    color: '#69283B',
+    lineHeight: '3.5rem',
+    fontWeight: '450',
+    maxWidth:'1020px'
+
+    
+}
 
   return (
     <>
     <h1 className="title">Servicios</h1>
+    <h1 style={slogan}>En nuestro punto de partida es esencial la conexión, la empatía, conocernos y escucharnos</h1>
     <div className="carousel">
       <Carousel
         cards={cards}

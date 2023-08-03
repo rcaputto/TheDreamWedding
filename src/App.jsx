@@ -10,6 +10,7 @@ import TunningDos from './Components/Dossier/TunningDos'
 import WeddingPlannerOnline from './Components/Dossier/WeddingPlannerOnline'
 import WeddingPoint from './Components/Dossier/WeddingPoint'
 import Galeria from './Components/Galeria'
+import Formulario from './Components/Formulario'
 
 
 
@@ -31,6 +32,7 @@ function App() {
       <Route path='/WeddingPlannerOnline' element = {<WeddingPlannerOnline/>}/>
       <Route path='/WeddingPoint' element = {<WeddingPoint/>}/>
       <Route path='/Galeria' element = {<Galeria/>}/>
+      <Route path='/form' element = {<Formulario/>}/>
 
     </Routes>
     </Router>

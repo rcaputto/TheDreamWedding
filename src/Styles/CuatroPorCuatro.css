@@ -29,7 +29,7 @@
     text-align: center;
     line-height: 4rem;
     margin-left: 4rem;
-    background-image: url(../Images/png/fondotitulo.png);
+    background-image: url('../Images/png/fondotitulo.png');
     background-position: top;
     background-repeat: no-repeat;
     margin-right: auto;

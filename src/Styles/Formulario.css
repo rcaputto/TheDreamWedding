@@ -1,0 +1,13 @@
+.FormTitle{
+    background-image: url('../Images/png/fondotitulo2.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:130px;
+    height:20vh;
+    line-height:6rem;
+    margin-top:4rem;
+    color: var(--bs-grassGreen);
+    text-align: center;
+    font-size: 64px;
+    font-family: 'Allura', cursive;
+}

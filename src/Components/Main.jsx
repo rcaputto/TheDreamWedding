@@ -45,33 +45,16 @@ export default function Main() {
             <Break />
             <div id='inicio'/>
             <Card style={card} >
-                <div className='main'></div>
+                <div className='main' id='inicio'></div>
                 <Card.ImgOverlay className="animate__animated animate__flip animate__delay-5s">
                     <Card.Img variant="top" className='w-25' src={Logo} />
                 </Card.ImgOverlay>
-                <Card.ImgOverlay className='plant' style={{marginRight:'6rem'}}>
-                    <Card.Img   src={plant}  />
-                </Card.ImgOverlay>
-                <Card.ImgOverlay className='plant' style={{marginRight:'6rem', marginTop:'14rem'}}>
-                    <Card.Img   src={plant}  />
-                </Card.ImgOverlay>
+                
                 <Card.ImgOverlay className='plant' style={{marginRight:'6rem',marginTop:'28rem'}}>
                     <Card.Img   src={plant}  />
                 </Card.ImgOverlay>
                 <Card.ImgOverlay className='plant' style={{marginTop:'1rem'}}>
                     <Card.Img   src={flower}  />
-                </Card.ImgOverlay>
-                <Card.ImgOverlay className='plant' style={{marginTop:'8rem'}}>
-                    <Card.Img   src={flower2}  />
-                </Card.ImgOverlay>
-                <Card.ImgOverlay className='plant' style={{marginTop:'16rem'}}>
-                    <Card.Img   src={flower2}  />
-                </Card.ImgOverlay>
-                <Card.ImgOverlay className='plant' style={{marginTop:'24rem'}}>
-                    <Card.Img   src={flower}  />
-                </Card.ImgOverlay>
-                <Card.ImgOverlay className='plant' style={{marginTop:'32rem'}}>
-                    <Card.Img   src={flower2}  />
                 </Card.ImgOverlay>
                 <h1 style={slogan}>“Es tu boda, tu la soñaste…. Nosotras te ayudamos a lograrlo.”</h1>
             </Card> 

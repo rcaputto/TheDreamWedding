@@ -10,8 +10,14 @@
   .title{
     text-align: center;
     font-size: 64px;
-    margin-bottom: 4rem;
     font-family: 'Allura', cursive;
+    color: var(--bs-grassGreen);
+    background-image: url('../Images/png/fondotitulo2.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:130px;
+    height:20vh;
+    line-height:6rem;
   }
   .carousel{
     margin-bottom: 12rem;

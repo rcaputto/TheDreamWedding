@@ -1,5 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import Container from 'react-bootstrap/Container';
+import '../Styles/CarouselGaleria.css'
 import { Link } from 'react-router-dom';
 import Image1 from '../Images/Carrousel/17.jpg'
 import Image2 from '../Images/Carrousel/Copia de TDW-40.jpg';
@@ -8,7 +9,7 @@ import Image4 from '../Images/Carrousel/Copia de Deco Pedido de mano-6.jpg'
 
 export default function CarouselGaleria (){
   const ImgStyle = {
-    marginLeft : '10rem',
+    marginLeft : '8rem',
     marginTop : '1rem',
     height: '75vh',
     objectFit: 'cover',
@@ -22,6 +23,7 @@ export default function CarouselGaleria (){
     return (
        
       <Container>
+      <h1 className='galeryTitle'>Galeria</h1>
       <Carousel >
         <Carousel.Item>
         <Link to ="/Galeria" style={{textDecoration:'none'}}>
