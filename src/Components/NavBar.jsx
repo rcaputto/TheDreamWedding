@@ -42,7 +42,7 @@ export default function NavBar(){
               </NavDropdown>
               <Nav.Link  className="p-3"><Link to ="/Galeria" style={{textDecoration:'none', color:'#586d45'}}>Galeria</Link></Nav.Link>
               <Nav.Link href="#link" className="p-3" style={{color:'#586d45'}}>Blog</Nav.Link>
-              <Nav.Link className="ms-5 me-3 p-3" style={{color:'#586d45', textDecoration:'none'}}><Link to='/form' >Contacto</Link></Nav.Link>
+              <Nav.Link href="#formtitle" className="ms-5 me-3 p-3" style={{color:'#586d45', textDecoration:'none'}}>Contacto</Nav.Link>
               
             </Nav>
           </Navbar.Collapse>

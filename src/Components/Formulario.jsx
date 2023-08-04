@@ -1,8 +1,6 @@
 import {useForm} from 'react-hook-form';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import NavBarBis from './NavBarBis'
-import {FooterBis} from './FooterBis'
 import '../Styles/Formulario.css'
 
 
@@ -22,16 +20,20 @@ export default function Formulario (){
    
     return(
         <div >
-        <NavBarBis/>
-        <h1 className='FormTitle'>Dejanos tus datos y te contactaremos</h1>
+        <h1 className='FormTitle' id='formtitle'>Dejanos tus datos y te contactaremos</h1>
+        <div className='formulario'>
         <Form
-        onSubmit={handleSubmit(onSubmit)}>
+        action="https://formsubmit.co/rgcaputto@gmail.com" method="POST"
+        style={{width:'50%', marginBottom:'4rem'}}
+        >
             <Form.Group  
                 className='form'
                 controlId="exampleForm.ControInput1"
+                
                 >
             <Form.Label>Nombre</Form.Label>
-            <Form.Control 
+            <Form.Control
+                name = 'nombre' 
                 placeholder = 'Ingrese su nombre'
                 type="text" {...register("nombre", { required: true })} />
                 {errors?.nombre && <p>El campo es obligatorio</p>}
@@ -42,6 +44,7 @@ export default function Formulario (){
                 className='form'>
             <Form.Label>Apellido</Form.Label>
             <Form.Control 
+                name = 'apellido'
                 placeholder = 'Ingrese su apellido'
                 type="text" {...register("apellido", { required: true })} />
                 {errors?.apellido && <p>El campo es obligatorio</p>}
@@ -52,6 +55,7 @@ export default function Formulario (){
                 className='form'>
             <Form.Label>Email</Form.Label>
             <Form.Control 
+                name = 'email'
                 placeholder = 'Ingrese su email'
                 type="email" {...register("email", { required: true })} />
                 {errors?.email && <p>El campo es obligatorio</p>}
@@ -62,6 +66,7 @@ export default function Formulario (){
                 className='form'>
             <Form.Label>Teléfono</Form.Label>
             <Form.Control 
+                name = 'teléfono'
                 placeholder = 'Ingrese su número de teléfono'
                 type="text" 
                 {...register("phone", 
@@ -71,17 +76,19 @@ export default function Formulario (){
                 })} />
                 {errors?.password?.type === "required "&& (<p>Elcampo es obligatorio</p>)}
             </Form.Group>
-                <Button variant="primary" type="submit" style = {{marginTop:'6px', width:'100%'}}>Registrarse</Button>
+            <Form.Control
+            type='hidden'
+            name='_next'
+            value='https://dwedding.vercel.app/sent'
+            />
+            <Form.Control
+            type='hidden'
+            name='_captcha'
+            value='false'
+            />
+                <Button variant="primary" type="submit" style = {{marginTop:'6px', width:'100%'}}>Enviar</Button>
             </Form>
-            <Form.Group 
-                onSubmit={handleSubmit(onSubmit)} 
-                className='form'>
-            <Form.Label>Cuéntanos sobre tí</Form.Label>
-            <Form.Control 
-                type="text" {...register("email", { required: true })} />
-                {errors?.email && <p>El campo es obligatorio</p>}
-            </Form.Group>
-            <FooterBis/>   
+            </div>  
         </div>
     )
 }

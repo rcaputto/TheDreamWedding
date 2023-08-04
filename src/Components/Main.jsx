@@ -10,6 +10,7 @@ import Nosotras from './nosotras'
 import CardsApp from './CardsApp'
 import CarouselGaleria from './CarouselGaleria'
 import { Footer } from './Footer'
+import Formulario from './Formulario'
 
 
 
@@ -62,6 +63,7 @@ export default function Main() {
             <Nosotras/>
             <CardsApp/>
             <CarouselGaleria/>
+            <Formulario/>
             <Footer/>
         </>
     )
