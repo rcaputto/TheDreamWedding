@@ -14,6 +14,7 @@ import Formulario from './Formulario'
 
 
 
+
 const slogan = {
 
     fontFamily: 'Allura, cursive',
