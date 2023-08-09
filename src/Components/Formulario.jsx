@@ -1,7 +1,8 @@
 import {useForm} from 'react-hook-form';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import '../Styles/Formulario.css'
+import '../Styles/Formulario.css';
+import {useNavigate} from 'react-router-dom'
 
 
 export default function Formulario (){
@@ -16,7 +17,7 @@ export default function Formulario (){
         console.log ('REGISTRO',data)
     }
 
-
+const navigate = useNavigate()
    
     return(
         <div >
@@ -76,17 +77,18 @@ export default function Formulario (){
                 })} />
                 {errors?.password?.type === "required "&& (<p>Elcampo es obligatorio</p>)}
             </Form.Group>
-            <Form.Control
+            <input
             type='hidden'
             name='_next'
             value='https://dwedding.vercel.app/sent'
             />
-            <Form.Control
+            <input
             type='hidden'
             name='_captcha'
             value='false'
             />
                 <Button variant="primary" type="submit" style = {{marginTop:'6px', width:'100%'}}>Enviar</Button>
+                
             </Form>
             </div>  
         </div>
