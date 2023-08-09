@@ -87,7 +87,7 @@ const navigate = useNavigate()
             name='_captcha'
             value='false'
             />
-               <Link to='/sent'> <Button variant="primary" type="submit" style = {{marginTop:'6px', width:'100%'}}>Enviar</Button></Link>
+               <Button variant="primary" type="submit" style = {{marginTop:'6px', width:'100%'}}><Link to='/sent'> Enviar</Link></Button>
                 
             </Form>
             </div>  
