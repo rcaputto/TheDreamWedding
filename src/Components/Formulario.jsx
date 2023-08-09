@@ -2,7 +2,7 @@ import {useForm} from 'react-hook-form';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import '../Styles/Formulario.css';
-import {useNavigate} from 'react-router-dom'
+import {useNavigate, Link} from 'react-router-dom'
 
 
 export default function Formulario (){
@@ -87,7 +87,7 @@ const navigate = useNavigate()
             name='_captcha'
             value='false'
             />
-                <Button variant="primary" type="submit" style = {{marginTop:'6px', width:'100%'}}>Enviar</Button>
+               <Link to='/sent'> <Button variant="primary" type="submit" style = {{marginTop:'6px', width:'100%'}}>Enviar</Button></Link>
                 
             </Form>
             </div>  
