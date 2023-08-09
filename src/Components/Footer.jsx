@@ -3,6 +3,7 @@ import Facebook from '../Images/Redes/facebook.png'
 import Instagram from '../Images/Redes/instagram.png'
 import { Link } from 'react-router-dom';
 
+
 export const Footer = () => {
   return (
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
@@ -60,13 +61,13 @@ export const Footer = () => {
               <h6 className='text-uppercase fw-bold mb-4'>Contacto</h6>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                info@example.com
+                thedreamwedding.es@gmail.com
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                <MDBIcon icon="phone" className="me-3" />+34 671 31 79 98
               </p>
               <p>
-                <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
+                <MDBIcon icon="print" className="me-3" />+34 672 54 51 87
               </p>
             </MDBCol>
           </MDBRow>

@@ -80,7 +80,7 @@ const navigate = useNavigate()
             <input
             type='hidden'
             name='_next'
-            value='https://dwedding.vercel.app/sent'
+            value='http://127.0.0.1:5173/sent'
             />
             <input
             type='hidden'
@@ -88,7 +88,7 @@ const navigate = useNavigate()
             value='false'
             />
                <Button variant="primary" type="submit" style = {{marginTop:'6px', width:'100%'}}> Enviar</Button>
-               <Link to='/sent'></Link>
+               
                 
             </Form>
             </div>  

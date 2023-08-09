@@ -37,7 +37,8 @@ function CardsApp() {
           titulo='Race Day'
           texto='Es lo que necesitas para disfrutar de tu boda y no preocuparte por nada.
             Realizamos timing de la boda, montaje de puntos de decoración y todo lo que necesites para disfrutar'
-        />
+            link = "/race-day"
+            />
       ),
     },
     {
@@ -47,7 +48,8 @@ function CardsApp() {
           imagen={Tuning}
           titulo='Tuning 2.0'
           texto='En base a tus ideas, elaboramos una propuesta de diseño a medida donde exista un hilo conductor único a lo largo de toda la boda, diseñamos la papelería y personalizamos cada detalle al máximo.'
-        />
+          link = "/TunningDos"
+          />
       ),
     },
     {
@@ -57,7 +59,8 @@ function CardsApp() {
           imagen={MicroTuning}
           titulo='MicroTuning'
           texto='Estas necesitando un montaje fotográfico, un photocall, una puesta en escena para capturar un momento mágico? … Nosotras podemos ayudarte!'
-        />
+          link = "/microtunnig"
+          />
       ),
     },
     {
@@ -67,6 +70,7 @@ function CardsApp() {
           imagen={microBodas}
           titulo='MicroWedding'
           texto='Creamos este servicio de bodas simbólicas basada en el concepto de Las Vegas'
+          link = "/MicroWedding"
         />
       ),
     },
@@ -79,6 +83,7 @@ function CardsApp() {
           texto='Lo mágico de estas bodas, es que los novios eligen un destino que les guste, pero del que ninguno sea originario, para cumplir el sueño de celebrar su boda en un lugar especial para ellos con sus allegados.
           
           '
+          link = "/WeddingPoint"
         />
       ),
     },
@@ -91,6 +96,7 @@ function CardsApp() {
           texto='Este servicio está ideado para ayudarlos a distancia a organizar su boda paso a paso y así evitar que queden temas desatendidos.
           
           '
+          link = "/WeddingPlannerOnline"
         />
       ),
     },

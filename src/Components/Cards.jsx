@@ -25,11 +25,11 @@ function Cards( props) {
       onMouseLeave={() => setShown(false)}
       
     >
-    <Link to = {props.link} style={{textDecoration:'none'}}>
     <img src={props.imagen} alt=""/>
+    <Link to = {props.link} style={{textDecoration:'none'}}>
       <h2>{props.titulo}</h2>
-      <p>{props.texto}</p>
       </Link> 
+      <p>{props.texto}</p>
       
     </animated.div>
   );

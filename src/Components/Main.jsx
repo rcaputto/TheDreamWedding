@@ -11,6 +11,7 @@ import CardsApp from './CardsApp'
 import CarouselGaleria from './CarouselGaleria'
 import { Footer } from './Footer'
 import Formulario from './Formulario'
+import BarraRedesSociales from './BarraRedesSociales'
 
 
 
@@ -45,6 +46,7 @@ export default function Main() {
         <>
             <NavBar />
             <Break />
+            <BarraRedesSociales/>
             <div id='inicio'/>
             <Card style={card} >
                 <div className='main' id='inicio'></div>

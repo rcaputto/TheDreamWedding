@@ -1,24 +1,36 @@
-import NavBar from "../NavBar";
+import NavBarBis from "../NavBarBis";
+import '../../Styles/CuatroPorCuatro.css'
+import image1 from '../../Images/Dossier/44img.jpg'
+import image2 from '../../Images/Dossier/44imgb.jpg'
 
-export default function TunningDos (){
+export default function TunningDos() {
 
     return (
-        
-            <div>
-            <NavBar/>
-                <h1>Dossier Tunning 2.0</h1>
-                    <h3>Nos reunimos con ustedes para conocer sus ideas con respecto al estilo y temática de su boda, cuales son sus preferencias… como la sueñan.
-                    Elaboramos una propuesta de diseño a medida donde exista un hilo conductor único a lo largo de toda la boda. Gestionamos los proveedores para llevar a cabo la decoración.
-                    
-                    </h3>
-                    <h3>
-                    Nos encargamos del diseño de la papelería de la boda y lo personalizamos al detalle.
-                    Trasladamos los materiales y los montamos ese día, además de supervisar los montajes de proveedores externos.
-                    El valor de nuestro Tuning 2.0 es de 700€ + IVA.
+        <>
+            <NavBarBis />
+            <div className="backgroundImage">
 
-
-                    </h3>
             </div>
-        
+            <div className="cuatroCopy">
+                <div className="fondoCuatro">
+                    <h1 className="cuatroTitle">Dossier Tunning 2.0</h1>
+                    <h3>Nos reunimos con ustedes para conocer sus ideas con respecto al estilo y temática de su boda, cuales son sus preferencias… como la sueñan.
+                        Elaboramos una propuesta de diseño a medida donde exista un hilo conductor único a lo largo de toda la boda. Gestionamos los proveedores para llevar a cabo la decoración.
+                    </h3>
+                    <div className="imgCenter">
+                        <img src={image1} alt='img' />
+                        <img src={image2} alt='img' />
+                    </div>
+                    <div className="cuatroSecondCopy">
+                        <h3>
+                            Nos encargamos del diseño de la papelería de la boda y lo personalizamos al detalle.
+                            Trasladamos los materiales y los montamos ese día, además de supervisar los montajes de proveedores externos.
+                            El valor de nuestro Tuning 2.0 es de 700€ + IVA.</h3>
+                    </div>
+                </div>
+            </div>
+        </>
+
+
     )
 }
