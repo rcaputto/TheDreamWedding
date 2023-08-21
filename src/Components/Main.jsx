@@ -16,6 +16,7 @@ import BarraRedesSociales from './BarraRedesSociales'
 
 
 
+
 const slogan = {
 
     fontFamily: 'Allura, cursive',

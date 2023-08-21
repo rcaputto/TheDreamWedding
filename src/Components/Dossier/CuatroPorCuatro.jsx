@@ -7,7 +7,7 @@ export default function CuatroPorCuatro (){
 
     return (
         
-            <div>
+            <div className='body'>
             <NavBarBis/>
             <div className="backgroundImage">
             

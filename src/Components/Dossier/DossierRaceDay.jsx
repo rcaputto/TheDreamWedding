@@ -2,6 +2,7 @@ import NavBarBis from "../NavBarBis";
 import '../../Styles/CuatroPorCuatro.css'
 import image1 from '../../Images/Dossier/44img.jpg'
 import image2 from '../../Images/Dossier/44imgb.jpg'
+import '../../Styles/CuatroPorCuatro.css'
 
 
 export default function DossierRaceDay() {
