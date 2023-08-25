@@ -9,9 +9,44 @@
     text-align: center;
     font-size: 64px;
     font-family: 'Allura', cursive;
+    background-color: rgb(218, 169, 158);
+}
+.formshadow{
+    box-shadow: -8px -8px 26px -3px rgba(245,160,160,0.71);
+    -webkit-box-shadow: -8px -8px 26px -3px rgba(245,160,160,0.71);
+    -moz-box-shadow: -8px -8px 26px -3px rgba(245,160,160,0.71);
+    max-width: 1210px;
+    margin-bottom: 4rem;
+    margin-left: 4rem;
+    
+}
+.nombreyapellido{
+    display: flex;
+    justify-content: space-around;
+}
+.emailytelefono{
+    display: flex;
+    justify-content: space-around;
 }
 .formulario{
     display: flex;
     justify-content: center;
     align-items: center
+}
+.formularioCompleto{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(218, 169, 158);
+    height: 70vh;
+}
+.plantillaForm{
+    width: 40rem;
+}
+.formText{
+    width: 25rem;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 36px;
+    color: white;
 }
