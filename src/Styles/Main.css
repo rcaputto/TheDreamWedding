@@ -1,43 +1,78 @@
-.main{
-    
+@media (min-width:320px){
+  .main{
+      
     background-image: url('../Images/TDW-67.jpg');
-    
     background-repeat: no-repeat ;
-    background-size:65%;
-    width: 85%;
-    margin-left:6rem;
-    background-attachment: fixed;
-    background-position: top;
-    background-color: #7D375C;
-    height: 110vh;
-    animation: image 5s ease 0s 1 normal ;
+    background-size:100%;
+    width: 100%;
+    
+    background-position: center;
+    height: 100vh;
+  }
+  .plant{
+    display: none;
+  }
+  .logo{
+    width: 50rem;
+  }
+  .card{
+    margin-top: -1rem;
+    padding: 1rem;
+  }
+ #slogan {
+    
+    display: none;
+  }
+ #sloganResponsive{
+    font-family: Allura, cursive;
+    font-size: 35px;
+    text-align: center;
+  }
 }
-@keyframes image {
-	0% {
-		background-position: 50% 50%;
-	}
 
-	100% {
-		background-position: top center;
-	}
-  } 
-.main-image{
-    width: 30%;
-    margin-left: -60rem;
-    animation: myAnim 1s ease 0s 1 normal forwards;
-}
-@keyframes myAnim {
+@media (min-width:910px){
+
+  .main{
+      
+      background-image: url('../Images/TDW-67.jpg');
+      background-repeat: no-repeat ;
+      background-size:65%;
+      width: 85%;
+      margin-left:6rem;
+      background-attachment: fixed;
+      background-position: top;
+      background-color: #7D375C;
+      height: 110vh;
+      animation: image 5s ease 0s 1 normal ;
+  }
+  @keyframes image {
     0% {
-      transform: scale(0);
+      background-position: 50% 50%;
     }
   
     100% {
-      transform: scale(1);
+      background-position: top center;
     }
+    } 
+  
+  .main-image{
+      width: 30%;
+      margin-left: -60rem;
+      animation: myAnim 1s ease 0s 1 normal forwards;
   }
-  .plant{
-    width: 7rem;
-    margin-left: auto;
+  @keyframes myAnim {
+      0% {
+        transform: scale(0);
+      }
     
-  }
+      100% {
+        transform: scale(1);
+      }
+    }
+    .plant{
+      width: 7rem;
+      margin-left: auto;
+      
+    }
+}
   

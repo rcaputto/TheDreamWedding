@@ -9,8 +9,7 @@ import Image4 from '../Images/Carrousel/Copia de Deco Pedido de mano-6.jpg'
 
 export default function CarouselGaleria (){
   const ImgStyle = {
-    marginLeft : '8rem',
-    marginTop : '1rem',
+    width: '100%',
     height: '75vh',
     objectFit: 'cover',
   }
@@ -24,8 +23,8 @@ export default function CarouselGaleria (){
        
       <Container>
       <h1 className='galeryTitle'>Galeria</h1>
-      <Carousel >
-        <Carousel.Item>
+      <Carousel id='carouselGaleria'>
+        <Carousel.Item id='itemCarousel'>
         <Link to ="/Galeria" style={{textDecoration:'none'}}>
         <img
           className="d-block "
@@ -39,7 +38,7 @@ export default function CarouselGaleria (){
           <h4 style={{color:'#fad4c8'}}>Banquete a pie de playa</h4>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item id='itemCarousel'>
       <Link to ="/Galeria" style={{textDecoration:'none'}}>
         <img
           className="d-block "
@@ -54,7 +53,7 @@ export default function CarouselGaleria (){
           <h4 style={{color:'#fad4c8'}}>4 x 4 Wedding</h4>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item id='itemCarousel'>
       <Link to ="/Galeria" style={{textDecoration:'none'}}>
         <img
           className="d-block "

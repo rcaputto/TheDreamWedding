@@ -121,7 +121,8 @@ function CardsApp() {
   return (
     <>
     <h1 className="title">Servicios</h1>
-    <h1 style={slogan}>En nuestro punto de partida es esencial la conexión, la empatía, conocernos y escucharnos</h1>
+    <h1 style={slogan} id="sloganNone">En nuestro punto de partida es esencial la conexión, la empatía, conocernos y escucharnos</h1>
+    <h1 id="sloganResponsive">En nuestro punto de partida es esencial la conexión, la empatía, conocernos y escucharnos</h1>
     <div className="carousel">
       <Carousel
         cards={cards}

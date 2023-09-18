@@ -1,12 +1,8 @@
 import '../Styles/Nosotras.css'
 import Card from 'react-bootstrap/Card';
+import  nosotrasImg from '../Images/nosotras.jpg'
 
 
-const nosotras = {
-    textAlign : 'center',
-    fontFamily: 'Allura, cursive',
-    
-}
 
 
 
@@ -15,7 +11,8 @@ function Nosotras () {
         <>
         <div id='us'/>
         <div  className="nosotras">
-        <h1 id="nosotrasTitle" style={nosotras}>Nosotras</h1>
+        <h1 id="nosotrasTitle">Nosotras</h1>
+        <img id='nosotrasImg' src={nosotrasImg} alt='img'/>
         <div className="background">
         <div className="nosotrasCard">
         <h1 className='nosotrasCopy'>Somos May y Miri, dos argentinas Todo Terreno pisando fuerte en España, que creamos este proyecto conjunto para plasmar nuestra esencia en uno de los momentos más lindos de su vida… Tu boda soñada!

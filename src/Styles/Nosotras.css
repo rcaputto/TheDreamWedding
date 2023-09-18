@@ -1,59 +1,143 @@
-.nosotras{
-    margin-top: 14rem;
-    margin-bottom: 2rem;
+@media(min-width: 320px){
    
-}
-:root{
-    --bs-grassGreen: #586d45;
-    --bs-orange: #ecc052;
-    --bs-lightGreen: #c6d1ac;
-    --bs-green: #a5b29d;
-    --bs-lightPink: #fad4c8;
-    --bs-lightgray:#f1eae1;
-    --bs-gray:#c3cfc2;
-  }
-
-#nosotrasTitle{
-    background-image: url('../Images/png/fondotitulo2.png');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size:130px;
-    height:20vh;
-    line-height:6rem;
-    margin-top: -10rem;
-    color: var(--bs-grassGreen);
-    text-align: center;
-    font-size: 64px;
-    font-family: 'Allura', cursive;
+    #nosotrasTitle{
+        background-image: url('../Images/png/fondotitulo2.png');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size:130px;
+        font-family: Allura, cursive;
+        font-size: 52px;
+        text-align: center;
+        margin-top: -2rem;
+    }
+    .nosotrasCopy{
+        font-family: sans-serif;
+        font-size: 24px;
+        font-weight: lighter;
+        text-align: justify;
+        line-height: 38px;
+        width: 28rem;
+        padding: 2rem;
+        margin: auto;
+        color: var(--bs-grassGreen);
+    }
+    #nosotrasImg{
+        width: 100%;
+    }
     
 }
-
-
-
-.nosotrasCopy{
-    font-family: sans-serif;
-    font-size: 24px;
-    font-weight: lighter;
-    text-align: center;
-    line-height: 38px;
-    width: 28rem;
-    margin-left: 50rem;
-    padding: 2rem;
-    color: var(--bs-grassGreen);
+@media(min-width: 768px){
+    #nosotrasImg{
+        display: none;
+    }
+    #nosotrasTitle{
+        background-image: url('../Images/png/fondotitulo2.png');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size:130px;
+        height:20vh;
+        line-height:6rem;
+        margin-top: -10rem;
+        color: var(--bs-grassGreen);
+        text-align: center;
+        font-size: 64px;
+        font-family: 'Allura', cursive;
+        
+    }
+    
+    
+    
+    .nosotrasCopy{
+        font-family: sans-serif;
+        font-size: 24px;
+        font-weight: lighter;
+        text-align: center;
+        line-height: 38px;
+        width: 28rem;
+        margin-left: 50rem;
+        padding: 2rem;
+        color: var(--bs-grassGreen);
+    }
+    
+    .nosotrasCard{
+        height: 115vh;
+        background-image: url('../Images/nosotras.jpg');
+        background-size:50rem;
+        background-repeat: no-repeat;
+        background-position:left;
+        background-attachment: fixed;
+        
+        
+    }
+    .background{
+        background-color: var(--bs-lightPink);
+        
+        
+    }
 }
-
-.nosotrasCard{
-    height: 115vh;
-    background-image: url('../Images/nosotras.jpg');
-    background-size:50rem;
-    background-repeat: no-repeat;
-    background-position:left;
-    background-attachment: fixed;
+@media(min-width: 1024px){
+    
+    .nosotras{
+        margin-top: 14rem;
+        margin-bottom: 2rem;
+        font-family: Allura, cursive;
+       
+    }
+    #nosotrasImg{
+        display: none;
+    }
+    :root{
+        --bs-grassGreen: #586d45;
+        --bs-orange: #ecc052;
+        --bs-lightGreen: #c6d1ac;
+        --bs-green: #a5b29d;
+        --bs-lightPink: #fad4c8;
+        --bs-lightgray:#f1eae1;
+        --bs-gray:#c3cfc2;
+      }
+    
+    #nosotrasTitle{
+        background-image: url('../Images/png/fondotitulo2.png');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size:130px;
+        height:20vh;
+        line-height:6rem;
+        margin-top: -10rem;
+        color: var(--bs-grassGreen);
+        text-align: center;
+        font-size: 64px;
+        font-family: 'Allura', cursive;
+        
+    }
     
     
-}
-.background{
-    background-color: var(--bs-lightPink);
     
+    .nosotrasCopy{
+        font-family: sans-serif;
+        font-size: 24px;
+        font-weight: lighter;
+        text-align: center;
+        line-height: 38px;
+        width: 28rem;
+        margin-left: 50rem;
+        padding: 2rem;
+        color: var(--bs-grassGreen);
+    }
     
+    .nosotrasCard{
+        height: 115vh;
+        background-image: url('../Images/nosotras.jpg');
+        background-size:50rem;
+        background-repeat: no-repeat;
+        background-position:left;
+        background-attachment: fixed;
+        
+        
+    }
+    .background{
+        background-color: var(--bs-lightPink);
+        
+        
+    }
 }

@@ -51,7 +51,7 @@ export default function Main() {
             <div id='inicio'/>
             <Card style={card} >
                 <div className='main' id='inicio'></div>
-                <Card.ImgOverlay className="animate__animated animate__flip animate__delay-5s">
+                <Card.ImgOverlay className="logo">
                     <Card.Img variant="top" className='w-25' src={Logo} />
                 </Card.ImgOverlay>
                 
@@ -61,7 +61,8 @@ export default function Main() {
                 <Card.ImgOverlay className='plant' style={{marginTop:'1rem'}}>
                     <Card.Img   src={flower}  />
                 </Card.ImgOverlay>
-                <h1 style={slogan}>“Es tu boda, tu la soñaste…. Nosotras te ayudamos a lograrlo.”</h1>
+                <h1 style={slogan} id='slogan'>“Es tu boda, tu la soñaste…. Nosotras te ayudamos a lograrlo.”</h1>
+                <h1  id='sloganResponsive'>“Es tu boda, tu la soñaste…. Nosotras te ayudamos a lograrlo.”</h1>
             </Card> 
                
             <Nosotras/>
