@@ -1,52 +1,90 @@
-.FormTitle{
-    background-image: url('../Images/png/fondotitulo2.png');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size:130px;
-    height:20vh;
-    line-height:6rem;
-    color: var(--bs-grassGreen);
-    text-align: center;
-    font-size: 64px;
-    font-family: 'Allura', cursive;
-    background-color: rgb(218, 169, 158);
+@media (min-width: 320px){
+    .formularioCompleto{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(218, 169, 158);
+       
+    }
+    .formText{
+        padding: 1rem;
+        text-align: justify;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        color: white;
+    }
+    .formulario{
+        padding: 1rem;
+    }
+    .formTextArea{
+        width: 100%;
+    }
+    .FormTitle{
+
+        
+        color: var(--bs-grassGreen);
+        text-align: center;
+        font-size: 36px;
+        font-family: 'Allura', cursive;
+        background-color: rgb(218, 169, 158);
+    }
 }
-.formshadow{
-    box-shadow: -8px -8px 26px -3px rgba(245,160,160,0.71);
-    -webkit-box-shadow: -8px -8px 26px -3px rgba(245,160,160,0.71);
-    -moz-box-shadow: -8px -8px 26px -3px rgba(245,160,160,0.71);
-    max-width: 1210px;
-    margin-bottom: 4rem;
-    margin-left: 4rem;
+
+@media (min-width: 728px){
     
 }
-.nombreyapellido{
-    display: flex;
-    justify-content: space-around;
-}
-.emailytelefono{
-    display: flex;
-    justify-content: space-around;
-}
-.formulario{
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
-.formularioCompleto{
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(218, 169, 158);
-    height: 70vh;
-}
-.plantillaForm{
-    width: 40rem;
-}
-.formText{
-    width: 25rem;
-    text-align: justify;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    line-height: 36px;
-    color: white;
+@media (min-width: 1020px){
+    
+    .FormTitle{
+        background-image: url('../Images/png/fondotitulo2.png');
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size:130px;
+        height:20vh;
+        line-height:6rem;
+        color: var(--bs-grassGreen);
+        text-align: center;
+        font-size: 64px;
+        font-family: 'Allura', cursive;
+        background-color: rgb(218, 169, 158);
+    }
+    .formshadow{
+        box-shadow: -8px -8px 26px -3px rgba(245,160,160,0.71);
+        -webkit-box-shadow: -8px -8px 26px -3px rgba(245,160,160,0.71);
+        -moz-box-shadow: -8px -8px 26px -3px rgba(245,160,160,0.71);
+        max-width: 1210px;
+        margin-bottom: 4rem;
+        margin-left: 4rem;
+        
+    }
+    .nombreyapellido{
+        display: flex;
+        justify-content: space-around;
+    }
+    .emailytelefono{
+        display: flex;
+        justify-content: space-around;
+    }
+    .formulario{
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    .formularioCompleto{
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(218, 169, 158);
+        
+    }
+    
+    .formTextArea{
+        width: 100%;
+    }
+    .formText{
+        padding:0 3rem 0 3rem;
+        text-align: justify;
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        line-height: 36px;
+        color: white;
+    }
 }

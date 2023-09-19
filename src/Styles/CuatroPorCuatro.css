@@ -1,63 +1,122 @@
-.body{
-    max-width: 1210px;
-
-}
-.backgroundImage{
-    background-image: url('../Images/Dossier/4x4.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:center;
-    height: 65vh;
-    max-width: 1010px;
-    margin-left: 8rem;
+@media (min-width: 320px){
+    .backgroundImage{
+        background-image: url('../Images/Dossier/4x4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        height: 65vh;
+        max-width: 450px;
+        margin: auto;
+    }
+    .cuatroTitle{
+        font-family: 'Allura', cursive;
+        text-align: center;
+        font-size: 42px;
+        margin-top: 2rem;
+    }
+    .cuatroCopy img{
+        width: 100%;
+        border-radius:2%;
+        margin: auto;
+        padding: 1rem;
+    }
+    .fondoCuatro{
+        background-image: url(../Images/png/fondotitulo2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin:auto;
+        height: 100vh;
+    }
+    .cuatroCopy h3{
+        
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 24px;
+        text-align: justify;
+        margin: auto;
+        padding: 2rem 2rem 0 2rem;
+       
+        
+    }
+    .cuatroSecondCopy{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 24px;
+        text-align: justify;
+        margin: auto;
+        padding: 2rem 2rem 0 2rem;
+        background-image: url('../Images/png/fondotitulo.png');
+        background-position: top;
+        background-repeat: no-repeat;
+        margin-right: auto;
+        height: 130vh;
+    }
     
 }
-
-.cuatroTitle{
-    font-family: 'Allura', cursive;
-    text-align: center;
-    font-size: 80px;
-    margin-top: 2rem;
-    margin-bottom: 4rem;
-}
-.cuatroCopy h3{
-    max-width: 1190px;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 24px;
-    text-align: justify;
-    line-height: 5rem;
-    margin-left: 4rem;
-    margin-bottom: 4rem;
-}
-.cuatroSecondCopy{
-    max-width: 1190px;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 32px;
-    text-align: center;
-    line-height: 4rem;
-    margin-left: 4rem;
-    background-image: url('../Images/png/fondotitulo.png');
-    background-position: top;
-    background-repeat: no-repeat;
-    margin-right: auto;
-    height: 130vh;
-}
-.fondoCuatro{
-    background-image: url(../Images/png/fondotitulo2.png);
-    background-position: left;
-    background-repeat: no-repeat;
-    margin-right: auto;
-    height: 100vh;
+@media (min-width: 728px){
     
 }
-.cuatroCopy img{
-    width: 40%;
-    border-radius:2%;
-    margin-right: 4rem;
-    margin-left: 4rem;
+@media (min-width: 1024px){
     
-}
-.imgCenter{
-    margin-bottom: 4rem;
-    display: flex;
+    .body{
+        max-width: 1210px;
+    
+    }
+    .backgroundImage{
+        background-image: url('../Images/Dossier/4x4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        height: 65vh;
+        
+        
+    }
+    
+    .cuatroTitle{
+        font-family: 'Allura', cursive;
+        text-align: center;
+        font-size: 80px;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+    .cuatroCopy h3{
+        max-width: 1190px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 24px;
+        text-align: justify;
+        line-height: 5rem;
+        margin-left: 4rem;
+        margin-bottom: 4rem;
+    }
+    .cuatroSecondCopy{
+        max-width: 1190px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 32px;
+        text-align: center;
+        line-height: 4rem;
+        margin-left: 4rem;
+        background-image: url('../Images/png/fondotitulo.png');
+        background-position: top;
+        background-repeat: no-repeat;
+        margin-right: auto;
+        height: 130vh;
+    }
+    .fondoCuatro{
+        background-image: url(../Images/png/fondotitulo2.png);
+        background-position: left;
+        background-repeat: no-repeat;
+        margin-right: auto;
+        height: 100vh;
+        
+    }
+    .cuatroCopy img{
+        width: 40%;
+        border-radius:2%;
+        margin-right: 4rem;
+        margin-left: 4rem;
+        
+    }
+    .imgCenter{
+        margin-bottom: 4rem;
+        display: flex;
+    }
 }

@@ -69,14 +69,14 @@ export default function Formulario() {
 
                         <Form.Group
                             onSubmit={handleSubmit(onSubmit)}
-                            className='form'>
+                            className='form '>
                             <Form.Label style={{ color: 'white' }}>Teléfono</Form.Label>
 
                             <Form.Control
 
                                 name='teléfono'
 
-                                type="textArea"
+                                type="number"
                                 {...register("phone",
                                     {
                                         required: true,
@@ -92,7 +92,7 @@ export default function Formulario() {
                         <Form.Label style={{ color: 'white', marginLeft: '4rem', marginTop: '1rem' }}>Contanos en que podemos ayudarte</Form.Label>
 
                     </Form.Group>
-                    <textarea style={{ marginLeft: '4rem' }} name="postContent" rows={6} cols={70} />
+                    <textarea className='formTextArea'  name="postContent" rows={6} cols={70} />
 
 
                     <input
