@@ -2,13 +2,13 @@ import "../Styles/CardsApp.css";
 import { v4 as uuidv4 } from "uuid";
 import Card from "./Cards";
 import Carousel from "./CarouselII";
-import weddingAllTerrain from '../Images/png/4x4wedding.png';
-import raceDay from '../Images/png/Raceday.png';
-import bodasDeDestino from '../Images/png/BodasDestino.png';
+import weddingAllTerrain from '../Images/png/4x4 wedding ingles.png';
+import raceDay from '../Images/png/Race day.png';
+import bodasDeDestino from '../Images/png/Bodas de destino.png';
 import MicroTuning from '../Images/png/Microtuning.png';
-import Tuning from '../Images/png/Tuning.png';
+import Tuning from '../Images/png/Tuning (1).png';
 import microBodas from '../Images/png/microbodas.png';
-import OnLine from '../Images/png/online.png';
+import OnLine from '../Images/png/WP online.png';
 
 
 

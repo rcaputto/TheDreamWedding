@@ -16,6 +16,10 @@ import foto15 from '../Images/Galeria WEB/Col1/15.jpg'
 import foto16 from '../Images/Galeria WEB/Col1/16.jpg'
 import foto17 from '../Images/Galeria WEB/Col1/17.jpg'
 import foto18 from '../Images/Galeria WEB/Col1/18.jpg'
+import mijas1 from '../Images/Galeria WEB/Mijas/Boda mijas 1.jpeg'
+import mijas2 from '../Images/Galeria WEB/Mijas/Boda mijas 2.jpeg'
+import mijas3 from '../Images/Galeria WEB/Mijas/Boda mijas 3.jpeg'
+import mijas4 from '../Images/Galeria WEB/Mijas/Boda mijas 4.jpeg'
 
 import Bfoto1 from '../Images/Galeria WEB/Col2/1.jpg'
 import Bfoto2 from '../Images/Galeria WEB/Col2/2.jpg'
@@ -70,12 +74,14 @@ export const Fotos = [
          {src: foto6},
          {src: foto7},
          {src: foto8},
+         {src: mijas1}
          
          
          
 ]
 export const Fotos2 = [
     {src: Bfoto11},
+    {src: mijas2},
     {src: Bfoto10},
     {src: Bfoto12},
     {src: Bfoto13},
@@ -96,6 +102,8 @@ export const Fotos2 = [
 ]
 export const Fotos3 = [
     {src: Cfoto9},
+    {src: mijas3},
+    {src: mijas4},
     {src: Cfoto10},
     {src: Cfoto11},
     {src: Cfoto12},

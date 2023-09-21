@@ -2,10 +2,11 @@ import Carousel from 'react-bootstrap/Carousel';
 import Container from 'react-bootstrap/Container';
 import '../Styles/CarouselGaleria.css'
 import { Link } from 'react-router-dom';
-import Image1 from '../Images/Carrousel/17.jpg'
+import Image1 from '../Images/Carrousel/Copia de TDW-27.jpg'
 import Image2 from '../Images/Carrousel/Copia de TDW-40.jpg';
 import Image3 from '../Images/Carrousel/Copia de Pedidomano-014.jpg'
 import Image4 from '../Images/Carrousel/Copia de Deco Pedido de mano-6.jpg'
+import Image5 from '../Images/Carrousel/Boda mijas 1.jpeg'
 
 export default function CarouselGaleria (){
   const ImgStyle = {
@@ -86,6 +87,23 @@ export default function CarouselGaleria (){
           <h3 style={tipografia}>En Acción</h3>
           <h4 style={{color:'#fad4c8'}}>
             Siempre en cada detalle
+          </h4>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+    <Link to ="/Galeria" style={{textDecoration:'none'}}>
+        <img
+          className="d-block "
+          src={Image5}
+          style = {ImgStyle}
+          alt="Third slide"
+        />
+        </Link>
+
+        <Carousel.Caption>
+          <h3 style={tipografia}>Estilo Inglés</h3>
+          <h4 style={{color:'#fad4c8'}}>
+            Wedding Point Mijas Pueblo
           </h4>
         </Carousel.Caption>
       </Carousel.Item>

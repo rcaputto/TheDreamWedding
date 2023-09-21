@@ -6,16 +6,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(132, 134, 166);
+    background-color: var(--bs-lightPink);
     padding: 10px;
     border-left: 1px solid #ccc;
-    box-shadow: -3px 0 5px rgba(0, 0, 0, 0.1);
+    
     z-index: 1000;
     width: 4%;
     border-radius: 5%;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
   }
   

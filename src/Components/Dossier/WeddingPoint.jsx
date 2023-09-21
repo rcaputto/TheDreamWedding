@@ -14,6 +14,8 @@ export default function WeddingPoint() {
             <div className="cuatroCopy">
                 <div className="fondoCuatro">
                     <h1 className="cuatroTitle">Dossier Weddings Point</h1>
+                    <h1 style={{fontSize:'42px', padding:'0 2rem 0 4rem'}} className="cuatroTitle">Como Wedding Planner en nuestro servicio de Bodas de Destino nos encargamos de los siguientes aspectos</h1>
+
                     <h3>¡Esto parece una locura, y es que sí lo es!  Y nos encantan las parejas que se atreven a cumplir sueños, aunque estos sean muy locos!
                         Las bodas de destino están en auge, Lo mágico de estas bodas, es que los novios eligen un destino que les guste y se trasladen hasta ahí, para cumplir el sueño de celebrar su boda en un lugar especial para ellos.
                     </h3>

@@ -1,0 +1,1 @@
+                <h1 style={{fontSize:'42px', padding:'0 2rem 0 4rem'}} className="cuatroTitle">Como Wedding Planner en nuestro servicio de Organización Integral nos encargamos de los siguientes aspectos</h1>

@@ -16,6 +16,8 @@ export default function DossierRaceDay() {
             <div className="cuatroCopy">
                 <div className="fondoCuatro">
                     <h1 className="cuatroTitle">Dossier Race Day</h1>
+                    <h1 style={{fontSize:'42px', padding:'0 2rem 0 4rem'}} className="cuatroTitle">Como Wedding Planner en nuestro servicio de Coordinación del día de la boda nos encargamos de los siguientes aspectos</h1>
+
                     <h3>El día de su Boda será inolvidable, intenso, lleno de emociones y adrenalina, el tiempo se les escurrirá entre los dedos, lo disfrutarán tanto que sin darse cuenta… habrá llegado al final. Ahora, la pregunta es, ¿quieren que todo ese disfrute se vea interrumpido por estar pendiente de la lista de canciones, de que los proveedores lleguen a tiempo, o de que todo salga como lo soñaron?
                     </h3>
                     <h3>Para eso estamos nosotras, para COORDINAR EL DIA DE LA BODA; profesionales preparadas para organizar y resolver cualquier incidencia sin que ustedes siquiera se enteren.
@@ -34,7 +36,7 @@ export default function DossierRaceDay() {
                         </h3>
                         <h3>
                             Luego de la ceremonia, también estamos presente durante el cóctel y el banquete, ocupándonos de todo, asistiéndolos a ustedes continuamente y a sus invitados.
-                            El Valor de nuestro Race Day es de 550 € + IVA.
+                            
 
                         </h3>
                     </div>
