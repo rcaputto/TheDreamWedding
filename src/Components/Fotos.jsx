@@ -18,7 +18,7 @@ import foto17 from '../Images/Galeria WEB/Col1/17.jpg'
 import foto18 from '../Images/Galeria WEB/Col1/18.jpg'
 import mijas1 from '../Images/Galeria WEB/Mijas/Boda mijas 1.jpeg'
 import mijas2 from '../Images/Galeria WEB/Mijas/Boda mijas 2.jpeg'
-import mijas3 from '../Images/Galeria WEB/Mijas/Boda mijas 3.jpeg'
+import mijas3 from '../Images/Galeria WEB/Mijas/Boda Mijas 3.jpeg'
 import mijas4 from '../Images/Galeria WEB/Mijas/Boda mijas 4.jpeg'
 
 import Bfoto1 from '../Images/Galeria WEB/Col2/1.jpg'
