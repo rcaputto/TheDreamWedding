@@ -2,6 +2,7 @@ import NavBarBis from "../NavBarBis";
 import '../../Styles/CuatroPorCuatro.css'
 import image1 from '../../Images/Dossier/44img.jpg'
 import image2 from '../../Images/Dossier/44imgb.jpg'
+import Whatsapp from "../Whatsapp";
 
 export default function WeddingPlannerOnline() {
 
@@ -14,6 +15,7 @@ export default function WeddingPlannerOnline() {
             <div className="cuatroCopy">
                 <div className="fondoCuatro">
                     <h1 className="cuatroTitle">Dossier Wedding Planner Online</h1>
+                    <Whatsapp/>
                     <h1 style={{fontSize:'42px', padding:'0 2rem 0 4rem'}} className="cuatroTitle">Como Wedding Planner en nuestro servicio de Wedding Planner a Distancia nos encargamos de los siguientes aspectos</h1>
 
                     <h3>Los ayudamos a la distancia a planificar y organizar uno de los días más importantes de su vida. Organizamos varias sesiones, empezando

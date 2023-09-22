@@ -3,6 +3,7 @@ import '../../Styles/CuatroPorCuatro.css'
 import image1 from '../../Images/Dossier/44img.jpg'
 import image2 from '../../Images/Dossier/44imgb.jpg'
 import NavBarBis from "../NavBarBis";
+import Whatsapp from '../Whatsapp'
 
 
 
@@ -17,12 +18,12 @@ export default function CuatroPorCuatro (){
             </div>
             <div className="cuatroCopy">
             <div className="fondoCuatro">
+            <Whatsapp/>
                 <h1 className="cuatroTitle">Dossier 4 x 4 Wedding</h1>
-                
                 <h1 style={{fontSize:'42px', padding:'0 2rem 0 4rem'}} className="cuatroTitle">Como Wedding Planner en nuestro servicio de Organización Integral nos encargamos de los siguientes aspectos</h1>
-                    <h3>Proyecto de la boda: Creamos el plan de acción ideal para su boda, en base a sus preferencias adaptando el presupuesto estipulado, buscando y gestionando los mejores proveedores para su boda.
-                    Elaboramos una propuesta de diseño a medida, según estilo, tema y escenario. Realizamos la búsqueda del espacio físico para la celebración y los guiamos con los trámites matrimoniales, ya sea por civil o por iglesia.
-                    </h3>
+                <h3>Proyecto de la boda: Creamos el plan de acción ideal para su boda, en base a sus preferencias adaptando el presupuesto estipulado, buscando y gestionando los mejores proveedores para su boda.
+                Elaboramos una propuesta de diseño a medida, según estilo, tema y escenario. Realizamos la búsqueda del espacio físico para la celebración y los guiamos con los trámites matrimoniales, ya sea por civil o por iglesia.
+                </h3>
                     </div>
                     <div className="imgCenter">
                     <img src={image1} alt='img'/>

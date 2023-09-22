@@ -98,7 +98,7 @@ export default function Formulario() {
                     <input
                         type='hidden'
                         name='_next'
-                        value='http://127.0.0.1:5173/sent'
+                        value='https://dwedding.vercel.app/sent'
                     />
                     <input
                         type='hidden'

@@ -2,6 +2,7 @@ import NavBarBis from "../NavBarBis";
 import '../../Styles/CuatroPorCuatro.css'
 import image1 from '../../Images/Dossier/44img.jpg'
 import image2 from '../../Images/Dossier/44imgb.jpg'
+import Whatsapp from "../Whatsapp";
 
 export default function WeddingPoint() {
 
@@ -14,6 +15,7 @@ export default function WeddingPoint() {
             <div className="cuatroCopy">
                 <div className="fondoCuatro">
                     <h1 className="cuatroTitle">Dossier Weddings Point</h1>
+                    <Whatsapp/>
                     <h1 style={{fontSize:'42px', padding:'0 2rem 0 4rem'}} className="cuatroTitle">Como Wedding Planner en nuestro servicio de Bodas de Destino nos encargamos de los siguientes aspectos</h1>
 
                     <h3>¡Esto parece una locura, y es que sí lo es!  Y nos encantan las parejas que se atreven a cumplir sueños, aunque estos sean muy locos!

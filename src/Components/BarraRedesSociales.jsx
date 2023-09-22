@@ -12,7 +12,7 @@ function BarraRedesSociales() {
   return (
     <>
     <div className="social-bar">
-    <a href="#" target="_blank" rel="noopener noreferrer">
+    <a href="https://wa.me/+34671317998" target="_blank" rel="noopener noreferrer">
       <img src={Whatsapp} alt="Facebook" />
     </a>
     <a href="https://www.instagram.com/thedreamwedding.es/" target="_blank" rel="noopener noreferrer">
